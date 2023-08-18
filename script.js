@@ -1,7 +1,7 @@
 function analize(){
   let num = document.getElementById("numero")  
   let tab = document.getElementById("selectnum")
-
+  
   
   //condição para não deixar o imput vazio
   if (num.value == 0 || num.value > 100){
@@ -11,7 +11,7 @@ function analize(){
     let listaN = []
     listaN.push(num.value)
     console.log(listaN)
-    
+    let item = document.createElement()
    /* 
     for(let i=1; i<=10; i++ ){  // Estrutura de reptição para mostrar a tabuada
       
